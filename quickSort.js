@@ -27,7 +27,7 @@ if (arr.length <= 1) return arr;
     }
 
 
-   // return quickSortStacks(before).concat(same, quickSortStacks(after))
+    return quickSortStacks(before).concat(same, quickSortStacks(after))
 
 }
 
